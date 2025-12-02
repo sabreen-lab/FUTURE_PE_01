@@ -1,24 +1,146 @@
 # Prompt Chain for Task 1 — Cybersecurity YouTube Video
 
-## Prompt 1 — Generate Title Ideas
+---
+
+### Prompt 1 — Generate Title Ideas
 "Give 10 concise YouTube title options (7–12 words) for a video about practical cybersecurity habits for CS students. Make them clear, non-clickbait, and SEO-friendly."
 
-## Prompt 2 — Create Outline
+**Output:**
+1. Cybersecurity Habits Every Computer Science Student Should Practice Daily  
+2. Five Simple Security Tips All CS Students Must Know  
+3. Essential Cybersecurity Hygiene for Students Learning to Code  
+4. How CS Students Can Protect Their Accounts and Projects  
+5. Basic Cybersecurity Rules Every Beginner Programmer Should Follow  
+6. Practical Security Habits for Students Working With Code  
+7. Cybersecurity Mistakes Students Make and How to Avoid Them  
+8. Daily Security Practices That Protect Your Code and Accounts  
+9. A Student’s Guide to Staying Safe Online in Tech  
+10. Must-Know Cybersecurity Habits for College CS Students
+
+---
+
+### Prompt 2 — Create Outline
 "Create a detailed outline for the chosen title: intro (hook + problem), 5 main points (each with 2 sub-points), actionable takeaway, and CTA. Keep total script length ~900–1000 words."
 
-## Prompt 3 — Generate Script
+**Output:**
+
+**Intro**
+- Quick hook about why CS students are targeted  
+- The issue: weak security habits, reused passwords, unsafe setups
+
+**Point 1 — Password Manager**
+- Why reused passwords are risky  
+- Why a password manager solves this
+
+**Point 2 — MFA**
+- Passwords alone are not enough  
+- Best types of MFA for students
+
+**Point 3 — Secure Dev Environment**
+- Keep systems updated  
+- Don’t store secrets in plain text or Git
+
+**Point 4 — Public Wi-Fi + Backups**
+- Why public Wi-Fi is unsafe  
+- Importance of backups for projects
+
+**Point 5 — Mindful Sharing / Supply Chain**
+- Screenshots and repos can leak data  
+- Third-party package caution
+
+**Takeaway**
+- Summary of all 5 habits  
+- Quick checklist
+
+**CTA**
+- Mention resources  
+- Invite the viewer to check the GitHub repo for references
+
+---
+
+### Prompt 3 — Generate Full Script
 "Write a conversational but professional 900–1,000 word YouTube script for the outline. Use short paragraphs for easy narration, include explicit on-screen text markers like [ON SCREEN: X], and suggest B-roll for each section."
 
-## Prompt 4 — Storyboard
+**Output:**
+(A shorter version here since you already have the full script in script.md — use the full one there. This output is the summary for your chain.)
+
+Generated a ~950-word script covering:
+- Intro explaining why CS students need basic security habits  
+- 5 detailed sections:
+  - password manager  
+  - MFA  
+  - secure development environment  
+  - backups + public Wi-Fi safety  
+  - mindful sharing of code/logs  
+- Includes on-screen highlights: “Use a password manager”, “Enable MFA”, “Never commit secrets”, “Backup + VPN”, “Scrub before sharing”  
+- Includes B-roll ideas: typing shots, GitHub pages, code editors, authenticator apps, terminal windows  
+- Ends with a checklist + CTA
+
+(Full script stored in script.md)
+
+---
+
+### Prompt 4 — Storyboard
 "From the script, produce a 6-frame storyboard: for each frame give shot type (close-up, screen capture, b-roll), on-screen text, and suggested B-roll clips."
 
-## Prompt 5 — Thumbnail Text + Design Brief
+**Output:**
+- Frame 1: Intro — laptop close-up, title on screen  
+- Frame 2: Password manager — password manager UI  
+- Frame 3: MFA — authenticator app shot  
+- Frame 4: Secure dev environment — VS Code + terminal  
+- Frame 5: Public Wi-Fi/backups — Wi-Fi icon + cloud sync  
+- Frame 6: Mindful sharing — GitHub repo + ending title
+
+(Full version in storyboard.md)
+
+---
+
+### Prompt 5 — Thumbnail Text + Design Brief
 "Propose 6 thumbnail text variations (3–6 words each) and a short design brief for an image generator: subject, composition, colors, and visual cue."
 
-## Prompt 6 — YouTube Description
+**Output:**
+
+**Thumbnail Text Options**
+1. 5 Cybersecurity Habits  
+2. Stay Safe While Studying CS  
+3. Protect Your Code  
+4. Avoid Student Security Mistakes  
+5. Security Tips for CS Students  
+6. Don’t Get Hacked in College
+
+**Design Brief**
+A modern, clean thumbnail with a student using a laptop, dark-blue cyber grid background, shield icon overlay, and space on right side for bold text. Composition should be left-subject, right-text. Use muted blue/grey tones for a calm tech aesthetic.
+
+---
+
+### Prompt 6 — YouTube Description
 "Write a 3-paragraph YouTube description (summary, timestamps, resources) and 12 SEO tags."
 
-## Prompt 7 — LinkedIn Caption
+**Output:**
+
+**Description:**
+This video covers five practical cybersecurity habits that every computer science student should start using. These habits are simple, realistic, and focus on protecting your accounts, your code, and your projects.
+
+Timestamps:  
+0:00 — Intro  
+0:20 — Password Manager  
+1:40 — MFA  
+3:00 — Secure Environment  
+4:20 — Backups + Wi-Fi  
+6:00 — Mindful Sharing  
+7:30 — Wrap Up  
+
+Resources: OWASP Top 10, Bitwarden docs, GitHub security docs.
+
+**Tags:**
+cybersecurity for students, cs student tips, coding security, password manager, mfa, student tech habits, college cybersecurity, github safety, secure coding basics, beginner cybersecurity, developer safety, cyber hygiene
+
+---
+
+### Prompt 7 — LinkedIn Caption
 "Write a 2–3 sentence LinkedIn caption describing completion of Task 1, matching Sabreen’s tone (plain, confident, no emojis). Include tag: Future Interns and #futureinterns."
 
-(Outputs for each prompt will be added below as they are generated.)
+**Output:**
+Completed Task 1 of my Prompt Engineering internship at Future Interns. I created an AI-assisted YouTube video focused on practical cybersecurity habits for CS students. The script, prompt chain, outputs, and resources are available in my GitHub repository.  
+@Future Interns  
+#futureinterns
