@@ -1,0 +1,24 @@
+# Prompt Chain for Task 1 — Cybersecurity YouTube Video
+
+## Prompt 1 — Generate Title Ideas
+"Give 10 concise YouTube title options (7–12 words) for a video about practical cybersecurity habits for CS students. Make them clear, non-clickbait, and SEO-friendly."
+
+## Prompt 2 — Create Outline
+"Create a detailed outline for the chosen title: intro (hook + problem), 5 main points (each with 2 sub-points), actionable takeaway, and CTA. Keep total script length ~900–1000 words."
+
+## Prompt 3 — Generate Script
+"Write a conversational but professional 900–1,000 word YouTube script for the outline. Use short paragraphs for easy narration, include explicit on-screen text markers like [ON SCREEN: X], and suggest B-roll for each section."
+
+## Prompt 4 — Storyboard
+"From the script, produce a 6-frame storyboard: for each frame give shot type (close-up, screen capture, b-roll), on-screen text, and suggested B-roll clips."
+
+## Prompt 5 — Thumbnail Text + Design Brief
+"Propose 6 thumbnail text variations (3–6 words each) and a short design brief for an image generator: subject, composition, colors, and visual cue."
+
+## Prompt 6 — YouTube Description
+"Write a 3-paragraph YouTube description (summary, timestamps, resources) and 12 SEO tags."
+
+## Prompt 7 — LinkedIn Caption
+"Write a 2–3 sentence LinkedIn caption describing completion of Task 1, matching Sabreen’s tone (plain, confident, no emojis). Include tag: Future Interns and #futureinterns."
+
+(Outputs for each prompt will be added below as they are generated.)
