@@ -1,0 +1,6 @@
+Thumbnail Text:
+“5 Cybersecurity Habits”
+“For CS Students”
+
+Image Prompt:
+"Portrait of a focused young South Asian student working on a laptop in a dorm-room setup, subtle cyber grid background, overlay of a shield icon and small code snippets. Clean, modern, cinematic. Colors: muted blue, dark grey. Room for text on right side."
